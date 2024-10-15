@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<link rel = "stylesheet" href = "style.css">
+<script src = "script.js"></script>
+<body>
+    <h1>Stephen Akrong's Portfolio</h1>
+    <br>
+    <br>
+    <nav>
+        <div class = "flex-row" id = "nav">
+            <h2><a href = "index.html" id = "link">Main Page</a></h2>
+            <h2>  |  </h2>
+            <h2><a href = "projects.html" id = "link">Projects/Creations</a></h2> 
+        </div>
+        
+    </nav>
+    <br>
+    <div class = "flex-row">
+        <div class = "flex-row" id = "project">
+            <div id = "rpsls" class = "project-box">
+                <h1>RPSLS</h2>
+                <br>
+                <button id = "rpsls-details" onclick="details('RPSLS')">Details</button>
+            </div>
+            <div id = "digital blackjack" class = "project-box">
+                <h1>Digital Blackjack</h2>
+                <br>
+                <button id = "blackjack-details" onclick="details('Digital Blackjack')">Details</button>
+            </div>
+            <div id = "rpg system" class = "project-box">
+                <h1>RPG System</h2>
+                <br>
+                <button id = "rpg-details" onclick="details('RPG System')">Details</button>
+            </div>
+            <div id = "bounce georgia website" class = "project-box">
+                <h1>Bounce Georgia Website</h2>
+                <br>
+                <button id = "bounce-details" onclick="details('Bounce Georgia Website')">Details</button>
+            </div>
+        </div>
+        <div class = "flex-column" id = "details">
+            <input type="text" id="search" name="search" placeholder="Type Project name or language/software">
+            <h1>Details</h1>
+            <h3 id="p-name">Project Name:</h3>
+            <p id="p-description">Description:</p>
+            <p id="p-type">Language/Software(s):</p>
+            <p>Link:</p>
+            <a href="" id = "p-link" target = "_blank"></a>
+            <p>Video:</p>
+            <video id="p-media" src ="" type="video/mp4" width="400" height="300" controls>Video Not Supported on This Browser</video>
+            
+        </div>
+    </div>
+    
+</body>
