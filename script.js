@@ -17,7 +17,7 @@ const project3 = {
     name:"RPG System",
     type:"Roblox,Lua",
     description:"A basic RPG system including: basic movement, sword combat, a leveling and EXP system, and a monster system.",
-    link:"N/A",
+    link:"https://youtu.be/NnFlgpkS3uU",
     media:"Media/RPG.mp4",
 };
 
